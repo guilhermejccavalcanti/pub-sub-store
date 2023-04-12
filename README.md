@@ -2,7 +2,7 @@
  
 Este repositório contém um exemplo simples de uma loja virtual construída usando uma **arquitetura publish/subscribe**.
  
-O exemplo foi projetado para ser usado em uma aula prática sobre esse tipo de arquitetura, que pode, por exemplo, ser realizada após o estudo do [Capítulo 7](https://engsoftmoderna.info/cap7.html) do livro [Engenharia de Software Moderna](https://engsoftmoderna.info).
+O exemplo foi projetado para ser usado em uma aula prática sobre esse tipo de arquitetura, que pode, por exemplo, ser realizada após o estudo do Capítulo 7 do livro Engenharia de Software Moderna.
  
 O objetivo é permitir que o aluno tenha um primeiro contato prático com arquiteturas Publish/Subscribe e com tecnologias usadas na implementação das mesmas. Especificamente, usaremos o sistema  [RabbitMQ](https://www.rabbitmq.com) como *broker* (ou seja um canal/meio de comunicação) para assinatura, publicação e armazenamento de eventos.
  
@@ -74,7 +74,7 @@ docker-compose up -d q-rabbitmq
  
 Após rodar esse comando, uma imagem do RabbitMQ estará executando localmente e podemos acessar sua interface gráfica, digitando no navegador: http://localhost:15672 
  
-Por padrão, o acesso a interface terá como usuário e senha a palavra: guest (conforme imagem abaixo). Este usuário pode ser modificados, editando este [arquivo](https://github.com/aserg-ufmg/pub-sub-store/blob/263c006556f2989324459ca9bd43544905e4335d/rabbitmq/q-rabbitmq-auth.env)
+Por padrão, o acesso a interface terá como usuário e senha a palavra: guest (conforme imagem abaixo). Este usuário pode ser modificados, editando este [arquivo](https://github.com/guilhermejccavalcanti/pub-sub-store/blob/263c006556f2989324459ca9bd43544905e4335d/rabbitmq/q-rabbitmq-auth.env)
  
 ![login_rabbitMQ](./images/login_rabbit_mq.png)
  
